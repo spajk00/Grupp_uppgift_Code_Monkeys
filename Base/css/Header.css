@@ -42,13 +42,15 @@
     margin-left: 1%;
     display:inline;
     position: center;
-    
+    border-color: green
     
 }
 
 .header-nav #profile_pict img {
-    overflow: hidden;
+    border-color: green;
     border-radius: 50%;
+    border-style: dotted;
+    
 }
 
 .header-nav .icon {
