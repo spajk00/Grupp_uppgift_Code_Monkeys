@@ -14,7 +14,6 @@
     text-decoration: none;
     font-size: 20px;
     
-
 }
 
 .header-nav a:hover {
@@ -34,20 +33,34 @@
     color: #ffa500;
 }
 
-.header-nav #logo {
+.header-nav #profile_pict {
     float: left;
-    padding: 0 13px;
+    border-radius: 50%;
+    padding: 13 13px;
+    height: 70px;
+    width: 70px;
+    margin-left: 1%;
+    
+    
 }
 
-.header-nav #logo img {
-    height: 65px;
-    width: 60px;
+.header-nav #profile_pict img {
+    overflow: hidden;
+    border-radius: 50%
+  
+
 }
 
 .header-nav .icon {
     display: none;
 }
-
+.User_alias{
+    color: white;
+    font-size: 20px;
+}
+.User_alias #Alias{
+    
+}
 
 
 /* Styling for mobile */
@@ -63,9 +76,10 @@
         display: block;
     }
 
-    .header-nav a#logo {
+    .header-nav a#profile_pict {
         float: left;
         display: block;
+
     }
 
     .header-nav.responsive {position: relative;}
@@ -82,7 +96,7 @@
         text-align: left;
     }
 
-    .header-nav.responsive a#logo {
+    .header-nav.responsive a #profile_pict {
         display: none;
     }
     
@@ -104,11 +118,11 @@
 /* Styling for mobile */
 
 @media only screen and (max-device-width: 779px){
-    .header-nav #logo {
+    .header-nav #profile_pict {
         padding: 0 10px;
     }
 
-    .header-nav #logo img {
+    .header-nav #profile_pict img {
         width: 65px;
     }
 }
