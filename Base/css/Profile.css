@@ -4,6 +4,10 @@
 }
 
 
+h3, h1{
+  color: black;
+}
+
 .square{
   width: 98%;
   height: 256px;
@@ -29,12 +33,16 @@ margin-right:auto;
   margin-right:auto;
 }
 
-.MarginOffset{
+.MarginOffsetTen{
   margin-top: -10px;
 }
 
+.MarginOffsetFour{
+  margin-top: -4px;
+}
+
 .centerText{
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
 
@@ -66,32 +74,76 @@ margin-right:auto;
   justify-content: center;
 }
 
+.centerBG , .centerBox{
+  background-color: rgb(222, 226, 235);
+}
 .centerBox{
-  background-color: rgb(201, 201, 201);
   margin-left: auto;
   margin-right: auto;
 
-  max-width: 90%;
+
+  max-width: 50%;
+  min-width: 900px;
+
   display: block;
   justify-content: left;
+}
+
+.boxWidth{
+
+}
+
+.buttonNav ul{
+
+  list-style-type:  none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+
+.buttonNav li a{
+  display: block;
+  text-align: center;
+
+  color: white;
+
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(129, 120, 198);
+
+  text-decoration: none;
+
+  border-radius: 10px;
+}
+
+.buttonNav li a:hover{
+background-color: rgb(84, 123, 114);
+color: white;
 }
 
 .profilSmall{
   width: 64;
   height: 64;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgb(131, 193, 151);
 
   border-radius: 100%;
 }
 
 .profileNav{
 overflow: hidden;
-background-color: rgb(111, 86, 86);
+background-color: rgb(255, 255, 255);
+border-style: solid;
+border-width: 0;
+border-color: rgb(175, 180, 208);
+border-top-width: 2px;
 
 }
 
 .profileNav a{
   float: left;
-  color: #f2f2f2;
+  color: #544949;
   text-align: center;
   padding: 10px 20px;
   text-decoration: none;
@@ -109,6 +161,36 @@ background-color: rgb(111, 86, 86);
 
 
 
+
 section{
 
+  margin-right: 0px;
+
+  margin-top: 50px;
+  background-color: rgb(204, 210, 226);
+  padding:  10px;
+  
+
+  border-width: 0;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 2px;
+  border-color: rgb(204, 187, 218);
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 1000px) {
+
+  .centerBox{
+    margin-left: auto;
+    margin-right: auto;
+  
+  
+    max-width: 90%;
+  
+    min-width: 0;
+    display: block;
+    justify-content: left;
+  }
+  }
 }
