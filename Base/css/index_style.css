@@ -9,7 +9,6 @@ html, body {
 	height: 100% !important;
 	 height:100%;
  	 margin:0;
-  	 
   	 font-weight:300;
   	 line-height:2em;
   	 color:#666;
@@ -51,102 +50,10 @@ html, body {
   padding:50px 80px;
   }
 
-.ptext{
-  position:absolute;
-  top:50%;
-  width:100%;
-  text-align:center;
-  color:#000;
-  font-size:50px;
-  letter-spacing:8px;
-  text-transform:uppercase;
-}
 
-.ptext .border{
-  background-color: #222021;
-  color:#fff;
-  padding:10px;
-}
 
-.ptext .border .trans{
-  background-color:transparent;
-}
 
-}
 
-.pcenter
-{
- 
-  top:25%;
-  width:100%;
-  text-align:center;
-  color:#000;
-  font-size:50px;
-  letter-spacing:8px;
-  text-transform:uppercase;
-}
-
-.pimg1, .pimg2, .pimg3, .pimg4{
-  position:relative;
-  opacity:0.6;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-}
-
-.pimg1{
-  background-image:url('../img/index_img1.jpg');
-  min-height:100%;
-}
-
-.pimg2{
-  background-image:url('../img/index_img2.jpg');
-  min-height:600px;
-}
-
-.pimg3{
-  background-image:url('../img/index_img3.jpg');
-  min-height:600px;
-}
-
-.pimg4{
-  background-image:url('../img/index_img4.jpg');
-  min-height:600px;
-}
-
-.frame{
-  
-  background-color: #222021;
-  padding: 10px;
-  height: 250px;
-  width: 500px;
-  border-color: transparent;
-}
-
-.div_frame{
-	text-align: center;
-    width: 100%;
-    vertical-align: middle;
-    height: 100%;
-    display: table-cell;
-}
-
-.C_button {
-  background-color: #222021;
-  color:#fff;
-  padding:10px;
-  
-
-}
-
-.C_button:hover {
-  background-color:#fff;
-  color: #222021;
-  padding:10px;
-
-  
-}
 
 
 
@@ -202,46 +109,9 @@ input[type=submit]:hover {
     
     .main-content h1 {font-size: 25px;}
     
-	.main-content p {padding: 0 2px;}
+	  .main-content p {padding: 0 2px;}
 
-	.pimg1, .pimg2, .pimg3{
-		    background-attachment:fixed;
-		  }
-
-	.ptext{font-size: 30px !important;}
-	.border{
-		font-size: 30px !important;
-		padding: 5px !important; 
-			}
-	.section-dark{font-size: 10px !important;}
-
-
-	.frame{
-			background-color: #222021;
-			padding: 10px;
-			height: 200px;
-			width: 300px;
-			bottom: 100%;
-			}
-
-      .C_button {
-        font-size: 30px;
-        background-color: #222021;
-        color:#fff;
-        line-height:2em;
-        padding:5px;
-        white-space: normal;
-        }
-
-        .C_button:hover 
-        {
-        background-color:#fff;
-        color: #222021;
-        line-height:2em;
-        padding:5px;
-        font-size: 30px;
-        
-      }
+	
 
 	#bottom {
 		padding: 0px;
