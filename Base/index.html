@@ -30,21 +30,34 @@
 
 			<div class="header-nav" id="topnav">
 
+				
+
 				<!-- Replace comment med code för Navbar länkar. -->
-				<a href="index.html" class="active">Home</a>
+				<div class="header-nav" id="topnav">
+				<a href="index.html"><span class="glyphicon glyphicon-plus-sign"></span></a>
+				<a href="index.html"><span class="glyphicon glyphicon-User"></span></a>
+				<a href="index.html"><span class="glyphicon glyphicon-Lock"></span></a>
+				<a href="index.html" class="active"><span class="glyphicon glyphicon-Home"></span></a>										
 				<a href="javascript:void(0);" class="icon" onclick="navbarMenuToggle()">&#9776;</a>
 
 
 				<!--- User related content ---> 
 
-					<a href="index.html" id="profile_pict">
-						<img class="img-responsive img-fluid" src="img/profile_pict.jpg">
-					</a>
+               	 <div class="col-sm-4">
+
+						<a class="header-nav" href="index.html" id="profile_pict">
+							<img class="img-responsive img-fluid" src="img/profile_pict.jpg">
+						</a>
 
 						<h1 class="header-nav" id="alias">
-									Bert Bertsson
-						</h1>
+							Bert Bertsson
+					</h1>
+				</div>
 
+					<!--- Search bar --->
+					<div class="col-sm-4">
+					<input class="Search" type="text" placeholder="Search..">
+					</div>
 				</div>
 			</div>
 

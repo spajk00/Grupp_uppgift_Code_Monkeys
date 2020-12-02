@@ -1,5 +1,4 @@
 .header-nav {
-    background: url(../Bilder/pattern.jpg);
     background-color: #222021;
     overflow: hidden;
 }
@@ -9,6 +8,7 @@
     float: right;
     display: inline;
     color: #ffff;
+    font-family: "Glyphicons Halflings";
     text-align: center;
     padding: 20px;
     text-decoration: none;
@@ -26,12 +26,26 @@
     background-color: #363636;
     color: #ffa500;
     opacity: 0.8;
+    padding-bottom: 10px;
 }
 
 .header-nav .active:hover {
     background-color: #363636;
     color: #ffa500;
 }
+
+.Search {
+    color: #333;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-top: 10px;
+    border: 2px solid #777;
+    width: 350px;
+    display: inline-block;
+}
+
 
 .header-nav #profile_pict {
     float: left;
@@ -41,8 +55,7 @@
     width: 70px;
     margin-left: 1%;
     display:inline;
-    position: center;
-    border-color: green
+   
     
 }
 
@@ -61,6 +74,11 @@
     color: white;
     font-size: 25px;
 }
+
+.glyphicon{
+  font-size: 30px;
+}
+
 
 
 /* Styling for mobile */
@@ -99,7 +117,12 @@
     .header-nav.responsive a #profile_pict {
         display: none;
     }
-    
+
+    .Search{
+
+        display: none;
+    }
+
 }
 
 /* Styling for tablets */
@@ -107,11 +130,13 @@
 @media screen and (max-device-width: 1200px) and (min-device-width: 601px) { 
 
     
+    
 }
 
 /* Styling for everything with a bigger screen than a mobile */
 
 @media only screen and (min-device-width: 780px){
+    
     
 }
 
@@ -124,5 +149,9 @@
 
     .header-nav #profile_pict img {
         width: 65px;
+    }
+    .Search{
+
+        display: none;
     }
 }
