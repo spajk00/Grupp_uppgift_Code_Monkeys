@@ -1,5 +1,5 @@
 .header-nav {
-    background-color: #222021;
+    background-color: #f8178800;
     overflow: hidden;
 }
 
@@ -14,6 +14,9 @@
     text-decoration: none;
     font-size: 20px;
     
+}
+.header-nav-BG{
+    background-color:deeppink;
 }
 
 .header-nav a:hover {
@@ -65,12 +68,14 @@
 
 
 .header-nav #comment_pict  {
+    border: 2px solid rgb(74, 95, 79);
+
     border-radius: 50%;
-    padding: 13 13px;
+    padding: 4px;
     height: 70px;
     width: 70px;
     margin-left: 1%;
-    display:inline;
+
    
     
 }

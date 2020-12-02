@@ -1,28 +1,31 @@
 <html>
-	<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<head>
 
-		<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/index_style.css">
-		<link rel="stylesheet" href="css/Footer.css">
-		<link rel="stylesheet" href="css/Header.css">
+	<title>Home</title>
 
-	 	<link rel="icon" type="image/png" href="img/favicon.png"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/index_style.css">
+	<link rel="stylesheet" href="css/Footer.css">
+	<link rel="stylesheet" href="css/Header.css">
+	<link rel="stylesheet" href="css/feed.css">
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
 
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery-3.2.1.min.js"></script>
-        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
 
-	</head>
-	<body>
-		
+
+</head>
+
+<body>
+	<div class="header-nav-BG">
 		<div class="container-fluid wrapper">
 
 			<!-- Header -->
@@ -30,20 +33,20 @@
 
 			<div class="header-nav" id="topnav">
 
-				
+
 
 				<!-- Replace comment med code för Navbar länkar. -->
 				<div class="header-nav" id="topnav">
-				<a href="index.html"><span class="glyphicon glyphicon-plus-sign"></span></a>
-				<a href="profil.html"><span class="glyphicon glyphicon-User"></span></a>
-				<a href="index.html"><span class="glyphicon glyphicon-Lock"></span></a>
-				<a href="index.html" class="active"><span class="glyphicon glyphicon-Home"></span></a>										
-				<a href="javascript:void(0);" class="icon" onclick="navbarMenuToggle()">&#9776;</a>
+					<a href="index.html"><span class="glyphicon glyphicon-plus-sign"></span></a>
+					<a href="profil.html"><span class="glyphicon glyphicon-User"></span></a>
+					<a href="index.html"><span class="glyphicon glyphicon-Lock"></span></a>
+					<a href="index.html" class="active"><span class="glyphicon glyphicon-Home"></span></a>
+					<a href="javascript:void(0);" class="icon" onclick="navbarMenuToggle()">&#9776;</a>
 
 
-				<!--- User related content ---> 
+					<!--- User related content --->
 
-               	 <div class="col-sm-4">
+					<div class="col-sm-4">
 
 						<a class="header-nav" href="index.html" id="profile_pict">
 							<img class="img-responsive img-fluid" src="img/profile_pict.jpg">
@@ -51,20 +54,18 @@
 
 						<h1 class="header-nav" id="alias">
 							Bert Bertsson
-					</h1>
-				</div>
+						</h1>
+					</div>
 
 					<!--- Search bar --->
 					<div class="col-sm-4">
-					<input class="Search" type="text" placeholder="Search..">
+						<input class="Search" type="text" placeholder="Search..">
 					</div>
 				</div>
 			</div>
-		</div>
 
-		 	<!--  Body   -->
-		
-			
+
+			<!--  Body   -->
 
 
 
@@ -74,31 +75,36 @@
 
 
 
-		<footer>
-				
-			<div class="col-md-12 col-sm-12 footer" style="padding: 0;">
+
+
+			<footer>
+
+				<div class="col-md-12 col-sm-12 footer" style="padding: 0;">
 					<!-- Footer text -->
 					<div class="col-md-12 col-sm-12 footer-block" style="padding: 0;">
-	                    <p>&copy; 2020 Code Monkeys. All rights reserved | Code Monkeys.
-	                    </p>
-	                </div>
+						<p>&copy; 2020 Code Monkeys. All rights reserved | Code Monkeys.
+						</p>
+					</div>
 				</div>
 
-			</div>
-		</footer>
+		</div>
+	</div>
 
-		<!-- Navbar Scriptet -->
+	</footer>
 
-		<script>
-			function navbarMenuToggle() {
-		    	var x = document.getElementById("topnav");
-		    	if (x.className === "header-nav") {
-		        	x.className += " responsive";
-		    	} else {
-		     	   x.className = "header-nav";
-		    	}
+	<!-- Navbar Scriptet -->
+
+	<script>
+		function navbarMenuToggle() {
+			var x = document.getElementById("topnav");
+			if (x.className === "header-nav") {
+				x.className += " responsive";
+			} else {
+				x.className = "header-nav";
 			}
-		</script>
+		}
+	</script>
 
-	</body>
+</body>
+
 </html>

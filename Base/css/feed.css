@@ -16,12 +16,36 @@ section{
 }
 
 .comment{
-background-color: darkblue;
+
+  padding:10px;
+  display: inline-flex;
+}
+
+.comment input{
+  height: 35px;
+
+  border-radius: 10px;
+  border-color: rgb(255, 255, 255);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15px;
 }
 
 .likeSection{
-background-color: yellow;
+  border-color: rgb(204, 187, 218);
+padding: 10px;
+border-style: solid;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-left-width: 0;
+border-right-width: 0;
 }
+
+.likeSection a{
+  font-size: 20;
+
+  margin: 10px 10px 10px 10px;
+  }
 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 1000px) {
