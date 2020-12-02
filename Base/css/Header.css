@@ -47,7 +47,7 @@
 }
 
 
-.header-nav #profile_pict {
+.header-nav #profile_pict  {
     float: left;
     border-radius: 50%;
     padding: 13 13px;
@@ -60,9 +60,18 @@
 }
 
 .header-nav #profile_pict img {
-    border-color: green;
     border-radius: 50%;
-    border-style: dotted;
+}
+
+
+.header-nav #comment_pict  {
+    border-radius: 50%;
+    padding: 13 13px;
+    height: 70px;
+    width: 70px;
+    margin-left: 1%;
+    display:inline;
+   
     
 }
 
