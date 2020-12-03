@@ -10,7 +10,7 @@
 	<meta content="" name="author">
 	<link href="style.css" rel="stylesheet">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	link rel="stylesheet" href="css/index_style.css" type="text/css"
+	    <link rel="stylesheet" href="css/Instelning.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/Footer.css">
@@ -19,21 +19,60 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
-
+<link rel="stylesheet" href="css/Profile.css">
 </head>
 
 <body>
+ <div class="container-fluid wrapper">
+			<div class="header-nav-BG">
+			<div class="header-nav" id="topnav">
 
+
+
+				<!-- Replace comment med code för Navbar länkar. -->
+				<div class="header-nav" id="topnav">
+					<a href="index.html"><span class="glyphicon glyphicon-plus-sign"></span></a>
+					<a href="profil.html"><span class="glyphicon glyphicon-User"></span></a>
+					<a href="index.html"><span class="glyphicon glyphicon-Lock"></span></a>
+					<a href="index.html" class="active"><span class="glyphicon glyphicon-Home"></span></a>
+					<a href="javascript:void(0);" class="icon" onclick="navbarMenuToggle()">&#9776;</a>
+
+
+					<!--- User related content --->
+
+					<div class="col-sm-4">
+
+						<a class="header-nav" href="index.html" id="profile_pict">
+							<img class="img-responsive img-fluid" src="img/profile_pict.jpg">
+						</a>
+
+						<h1 class="header-nav" id="alias">
+							Bert Bertsson
+						</h1>
+					</div>
+
+					<!--- Search bar --->
+					<div class="col-sm-4">
+						<input class="Search" type="text" placeholder="Search..">
+					</div>
+				</div>
+			</div>
+
+		</div>
+		
 <div class="container-fluid wrapper">
 
-
+<!--- Instellning  --->
 <div class="col-sm-2">
-	<h1> Inställningar </h1>
+	<h1> Instellning </h1>
   <nav>
     <ul style="list-style-type:none;">
+	<div class="Instelning">
       <li><a href="#">Allmänt</a></li>
       <li><a href="#">Säkerhet och inloggning</a></li>
       <li><a href="#">Din Information</a></li>
+	  </div>
+	  <div class="Instelning">
 	  <li><a href="#">Sekretess</a></li>
       <li><a href="#">Profil och taggning</a></li>
 	  <li><a href="#">Offentliga inlägg</a></li>
@@ -41,13 +80,20 @@
       <li><a href="#">Plats</a></li>
 	  <li><a href="#">Språk och region</a></li>
       <li><a href="#">Händelser</a></li>
+	  </div>
+	  <div class="Instelning">
       <li><a href="#">Aviseringar</a></li>
 	  <li><a href="#">Mobil</a></li>
+	  </div>
+	  <div class="Instelning">
       <li><a href="#">Appar och webbplatser</a></li>
       <li><a href="#">Snabbspel</a></li>
       <li><a href="#">Annonser</a></li>
 	  <li><a href="#">Support-inkorg</a></li>
       <li><a href="#">Videoklipp</a></li>
+	  </div>
+	  <div class="Instelning"></div>
+	  
     </ul>
   </nav>
  </div>
@@ -56,22 +102,22 @@
 <div class="col-sm-8">
 <h1 class="center"> Inställningar och verktyg för sekretess </h1>
  <div>
-
-<div>
+ 
+ 
+ 
+<!--- Sekretessgenvägar --->
+<div class="Instelning">
 <h3>Sekretessgenvägar</h3>
-
-
 	<p>Kontrollera några viktiga inställningar</p>
 
     <p>Gör en snabb genomgång av några viktiga inställningar för att vara säker på att du delar med rätt personer.</p>
-  
 </div>
 
 
 <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Hantera din profil</p>
  
@@ -83,7 +129,7 @@
   <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Grundläggande om sekretess</p>
  
@@ -97,21 +143,23 @@
  
  
  <br>
-
-<div>
+ 
+ 
+<!--- Din aktivitet --->
+<div class="Instelning">
 
 <div>
    <h3>Din aktivitet</h3>
 
     <p> Vem kan se mina kommande inlägg? </p>
-	<p >Vänner</p>
+
 	<a href="#">Redigera</a>
 
   </div>
     <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Granska alla dina inlägg och saker som du har taggats i</p>
 	<a href="#">Använd aktivitetsloggen</a>
@@ -121,7 +169,7 @@
     <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Vill du begränsa målgruppen för inlägg som du delat med vänners vänner eller offentligt?</p>
 	<a href="#">Begränsa tidigare inlägg</a>
@@ -131,10 +179,10 @@
     <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Vem kan se vilka personer, sidor och listor du följer?</p>
-	<p>Offentligt</p>
+
 	<a href="#">Redigera</a>
   </div>
   
@@ -145,35 +193,35 @@
  
  
  <br>
- <div>
+ 
+ <!--- Hur andra hittar och kontaktar dig --->
+ <div class="Instelning">
 
 
 <div>
 <h3>Hur andra hittar och kontaktar dig</h3>
     <p>Vem kan skicka vänförfrågningar till mig?</p>
-	<p>Alla</p>
+
 	<a href="#">Redigera</a>
 
   </div>
   
     <br>
 
- <br>
 
-
-<div>
+<div class="fb" >
     <p>Vem kan se din vänlista?</p>
-	<p>Offentligt</p>
+
 	<a href="#">Redigera</a>
   </div>
  
   <br>
 
 
-<div>
+<div class="fb" >
 
     <p>Vem kan söka efter dig med hjälp av e-postadressen du angett?</p>
-	<p>Alla</p></td>
+
 	<a href="#">Redigera</a>
 
   </div>
@@ -181,28 +229,46 @@
   <br>
 
 
-<div>
+<div class="fb"  >
 	<p>	Vem kan söka efter dig med hjälp av telefonnumret du angett? </p>
-	<p> Alla</p>
+
 	<a href="#"> Redigera</a>
 
   </div>
- 
-  <br>
-
-
-<div>
-    <p>Vill du att sökmotorer utanför Facebook ska länka till din profil?</p>
-	<p> Ja</p>
-	<a href="#"> Redigera</a>
- 
-  </div>
-  
    
    </div>
-
+<br>
+<br>
+<br>
 
 </div>
+		<footer>
+
+			<div class="col-md-12 col-sm-12 footer" style="padding: 0;">
+				<!-- Footer text -->
+				<div class="col-md-12 col-sm-12 footer-block" style="padding: 0;">
+					<p>&copy; 2020 Code Monkeys. All rights reserved | Code Monkeys.
+					</p>
+				</div>
+			</div>
+
+
+	</div>
+
+	</footer>
+
+	<!-- Navbar Scriptet -->
+
+	<script>
+		function navbarMenuToggle() {
+			var x = document.getElementById("topnav");
+			if (x.className === "header-nav") {
+				x.className += " responsive";
+			} else {
+				x.className = "header-nav";
+			}
+		}
+	</script>
  
  
  
