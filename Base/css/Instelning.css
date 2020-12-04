@@ -23,10 +23,9 @@
 .TextIIn{
 	overflow: hidden;
   background-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-width: 0;
   border-color: rgb(175, 180, 208);
   border-top-width: 2px;
-	
+  border-top-style: dotted;
+  border-right-style: solid;
 	
 }
