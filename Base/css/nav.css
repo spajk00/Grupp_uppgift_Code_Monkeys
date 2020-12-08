@@ -1,6 +1,6 @@
 
 
-.nav{
+.profileNav{
 overflow: hidden;
 background-color: rgb(255, 255, 255);
 border-style: solid;
@@ -10,7 +10,7 @@ border-top-width: 2px;
 
 }
 
-.nav a{
+.profileNav a{
   float: left;
   color: #544949;
   text-align: center;
@@ -23,7 +23,7 @@ border-top-width: 2px;
 
 }
 
-.nav a:hover {
+.profileNav a:hover {
   background-color: #ddd;
   color: black;
 }

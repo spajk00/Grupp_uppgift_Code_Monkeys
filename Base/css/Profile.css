@@ -5,18 +5,28 @@
 
 
 h3, h1{
-  color: black;
+  color: rgb(239, 240, 255);
+
 }
+
+
 
 .square{
   width: 98%;
   height: 256px;
-background: rgb(135, 135, 169);
+background: rgb(107, 116, 177);
 border-bottom-right-radius: 24px;
 border-bottom-left-radius: 24px;
 margin-left: auto;
 margin-right:auto;
+
+
+background: linear-gradient(0deg, #a9bbe0, #707fc1);
+background-size: 100%;
+overflow: hidden;
 }
+
+
 
 
 .profil{
@@ -24,7 +34,7 @@ margin-right:auto;
   height: 256px;
   margin-top: -220px;
   border-radius: 100%;
-  border: 10px solid rgb(255, 255, 255);
+  border: 10px solid rgb(130, 145, 206);
 }
 
 .center{
@@ -42,7 +52,7 @@ margin-right:auto;
 }
 
 .centerText{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(214, 211, 255);
   margin-left: auto;
   margin-right: auto;
 
@@ -53,8 +63,13 @@ margin-right:auto;
 
 }
 
+
+.bg, .centerText, .profil{
+  background-color: rgb(130, 145, 206);
+}
+
 .centerTextBlock{
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(89, 91, 132);
   margin-left: auto;
   margin-right: auto;
 
@@ -75,7 +90,7 @@ margin-right:auto;
 }
 
 .centerBG , .centerBox{
-  background-color: rgb(222, 226, 235);
+  background-color: rgb(176, 192, 228);
 }
 .centerBox{
   margin-left: auto;
@@ -89,6 +104,8 @@ margin-right:auto;
   justify-content: left;
 }
 
+
+
 .buttonNav ul{
 
   list-style-type:  none;
@@ -101,11 +118,11 @@ margin-right:auto;
   display: block;
   text-align: center;
 
-  color: white;
+  color: rgb(204, 219, 220);
 
   margin: 10px;
   padding: 10px;
-  background-color: rgb(129, 120, 198);
+  background: rgb(118, 113, 213);
 
   text-decoration: none;
 
@@ -113,7 +130,9 @@ margin-right:auto;
 }
 
 .buttonNav li a:hover{
-background-color: rgb(84, 123, 114);
+
+  background-color: rgb(85, 81, 160);
+
 color: white;
 }
 
@@ -123,26 +142,27 @@ color: white;
   height: 64;
   border-width: 8px;
   border-style: solid;
-  border-color: rgb(131, 193, 151);
+  border-color: rgb(128, 206, 215);
 
   border-radius: 100%;
 }
 
 
 
+
 .profileNav{
   overflow: hidden;
-  background-color: rgb(255, 255, 255);
+  background-color: rgbrgb(245, 247, 255);
   border-style: solid;
   border-width: 0;
-  border-color: rgb(175, 180, 208);
+  border-color: rgb(180, 203, 204);
   border-top-width: 2px;
   
   }
   
   .profileNav a{
     float: left;
-    color: #544949;
+    color: #f8f2ff;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
@@ -196,12 +216,10 @@ color: white;
   .buttonNav li a{
     display: block;
     text-align: center;
-  
-    color: white;
-  
+
     margin: 10px;
     padding: 10px;
-    background-color: rgb(129, 120, 198);
+
   
     text-decoration: none;
   
