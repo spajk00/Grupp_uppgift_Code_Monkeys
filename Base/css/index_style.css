@@ -6,7 +6,7 @@
 }
 
 html, body {
-	height: 100% !important;
+	 height: 100% !important;
 	 height:100%;
  	 margin:0;
   	 font-weight:300;
@@ -29,6 +29,9 @@ html, body {
   padding: 20px;
 }
 
+.friends{
+    display: hidden;
+}
 
 
 
