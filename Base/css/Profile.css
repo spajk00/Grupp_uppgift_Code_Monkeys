@@ -21,7 +21,7 @@ margin-left: auto;
 margin-right:auto;
 
 
-background: linear-gradient(0deg, #a9bbe0, #707fc1);
+background: linear-gradient(0deg, #54678a, #8d9bd8);
 background-size: 100%;
 overflow: hidden;
 }
@@ -34,7 +34,7 @@ overflow: hidden;
   height: 256px;
   margin-top: -220px;
   border-radius: 100%;
-  border: 10px solid rgb(130, 145, 206);
+  border: 10px solid rgb(76, 83, 111);
 }
 
 .center{
@@ -62,14 +62,16 @@ overflow: hidden;
   display: block;
 
 }
-
+.GrayWhite{
+  color: #c8d5ec;
+}
 
 .bg, .centerText, .profil{
-  background-color: rgb(130, 145, 206);
+  background-color: rgb(76, 83, 111);
 }
 
 .centerTextBlock{
-  background-color: rgb(89, 91, 132);
+  background-color: rgb(171, 171, 181);
   margin-left: auto;
   margin-right: auto;
 
@@ -90,7 +92,7 @@ overflow: hidden;
 }
 
 .centerBG , .centerBox{
-  background-color: rgb(176, 192, 228);
+  background-color: rgb(34, 34, 39);
 }
 .centerBox{
   margin-left: auto;
@@ -122,7 +124,7 @@ overflow: hidden;
 
   margin: 10px;
   padding: 10px;
-  background: rgb(118, 113, 213);
+  background: rgb(78, 75, 105);
 
   text-decoration: none;
 
@@ -131,7 +133,7 @@ overflow: hidden;
 
 .buttonNav li a:hover{
 
-  background-color: rgb(85, 81, 160);
+  background-color: rgb(101, 98, 160);
 
 color: white;
 }
