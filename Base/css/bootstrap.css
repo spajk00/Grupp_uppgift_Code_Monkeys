@@ -4084,18 +4084,18 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     border-bottom-color: #fff;
   }
 }
-.nav-pills > li {
+.nav-img/pil.pngls > li {
   float: left;
 }
-.nav-pills > li > a {
+.nav-img/pil.pngls > li > a {
   border-radius: 4px;
 }
-.nav-pills > li + li {
+.nav-img/pil.pngls > li + li {
   margin-left: 2px;
 }
-.nav-pills > li.active > a,
-.nav-pills > li.active > a:hover,
-.nav-pills > li.active > a:focus {
+.nav-img/pil.pngls > li.active > a,
+.nav-img/pil.pngls > li.active > a:hover,
+.nav-img/pil.pngls > li.active > a:focus {
   color: #fff;
   background-color: #337ab7;
 }
@@ -4942,7 +4942,7 @@ a.badge:focus {
   cursor: pointer;
 }
 .list-group-item.active > .badge,
-.nav-pills > .active > a > .badge {
+.nav-img/pil.pngls > .active > a > .badge {
   color: #337ab7;
   background-color: #fff;
 }
@@ -4952,7 +4952,7 @@ a.badge:focus {
 .list-group-item > .badge + .badge {
   margin-right: 5px;
 }
-.nav-pills > li > a > .badge {
+.nav-img/pil.pngls > li > a > .badge {
   margin-left: 3px;
 }
 .jumbotron {
