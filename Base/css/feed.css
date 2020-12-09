@@ -40,7 +40,7 @@ section p{
   border-color: rgb(255, 255, 255);
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 15px;
+  
   border: none;
 
 }
@@ -70,6 +70,46 @@ section p{
   border-left-width: 0;
   border-right-width: 0;
   margin-top: 10px;
+}
+
+.profile #profile_pict  {
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 2px solid rgb(74, 95, 79);
+
+    border-radius: 50%;
+    padding: 4px;
+    height: 70px;
+    width: 70px;
+    margin-left: 1%;
+
+   
+    
+}
+
+.profile #friends_pict  {
+    border: 6px solid rgb(74, 95, 79);
+    margin-left: 10%;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    
 }
 
 article{
@@ -102,4 +142,134 @@ section a:hover{
 
   }
 
+}
+
+
+/* Styling for mobile */
+
+@media only screen and (max-device-width: 600px){
+    
+ .profile #profile_pict  {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 1px solid rgb(74, 95, 79);
+
+    border-radius: 50%;
+    padding: 4px;
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+  .Sekretess{
+  display: none; 
+  }
+
+  .friends{
+    display: none;
+    }
+
+  #bottom {
+    padding: 0px;
+  }
+  .feed{
+  left: 0%;
+}
+    
+
+}
+
+/* Styling for tablets and mobiles */
+
+@media screen and (max-device-width: 1200px) and (min-device-width: 601px) { 
+
+   
+ .profile #profile_pict  {
+    float: left;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    display:inline;
+    background: transparent;
+    
+    
+}
+
+.profile #profile_pict img {
+    border-radius: 50%;
+    background: transparent;
+   
+}
+
+
+.profile #comment_pict  {
+    border: 2px solid rgb(74, 95, 79);
+    
+    padding: 4px;
+    height: 60px;
+    width: 60px;
+    
+
+   
+    
+}
+
+.friends p{
+  font-size: 24px; 
+  margin-left: -3px;
+  margin-top: auto;
+    
+}
+
+.feed{
+  left: 30%;
+}
+
+    
+}
+
+@media screen and (min-device-width: 1000px) and (max-device-width: 1200px){
+.feed{
+  left: 10%;
+}
+}
+
+
+@media only screen and (max-device-width: 900px){
+.friends p{
+  display: none;
+    
+}
+  
+.feed{
+  left: 7%;
+}
+
+/* Styling for mobiles*/
+
+@media only screen and (max-device-width: 730px){
+  
+.feed{
+  left: 0%;
+}
+.friends{
+    
+    }
 }
