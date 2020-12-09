@@ -41,11 +41,23 @@
     color: #ffa500;
 }
 
+.Search {
+    color: #333;
+    background-color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin: 10px;
+    margin-top: 10px;
+    border: 2px solid #777;
+    width: 350px;
+    display: inline-block;
+}
+
+
 .header-nav #profile_pict  {
     float: left;
     height: 70px;
     width: 70px;
-    margin-top: auto;
     margin-left: 1%;
     display:inline;
     background: transparent;
@@ -59,6 +71,7 @@
    
 }
 
+
 .header-nav #comment_pict  {
     border: 2px solid rgb(74, 95, 79);
 
@@ -71,19 +84,6 @@
    
     
 }
-
-.Search {
-    color: #333;
-    background-color: white;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    margin: 10px;
-    margin-top: 15px;
-    border: 2px solid #777;
-    width: 350px;
-    display: inline-block;
-}
-
 
 .header-nav .icon {
     display: none;
@@ -99,7 +99,9 @@
   font-size: 30px;
 }
 
-
+.friends{
+    display: hidden;
+}
 
 @keyframes gradient {
     0% {
@@ -134,7 +136,7 @@
 
     .header-nav.responsive {position: relative;}
 
-    .header-nav.responsive a.profile_pict {
+    .header-nav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -150,7 +152,6 @@
         display: none;
     }
 
-
     .Search{
 
         display: none;
@@ -162,12 +163,7 @@
 
 @media screen and (max-device-width: 1200px) and (min-device-width: 601px) { 
 
-   
-
-    .Search{
-        margin-top: 15px;
-        margin-left: -15%;
-    }
+    
     
 }
 
@@ -181,17 +177,12 @@
 /* Styling for mobile */
 
 @media only screen and (max-device-width: 779px){
-    .header-nav #profile_pict  {
-    height: 70px;
-    width: 70px;
-    margin-left: 1%;
-    background: transparent;
-    
-    
-}
+    .header-nav #profile_pict {
+       
+    }
 
     .header-nav #profile_pict img {
-        
+        width: 65px;
     }
     .Search{
 
